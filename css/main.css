@@ -119,9 +119,6 @@ body {
   height: 40vh;
   margin-left: auto;
   margin-right: auto; }
-@media (min-width: 768px) {
-  #mrDipsFallback {
-    display: none; } }
 
 canvas {
   display: block;
@@ -129,9 +126,6 @@ canvas {
   height: 40vh;
   margin-left: auto;
   margin-right: auto; }
-@media (max-width: 768px) {
-  canvas {
-    display: none; } }
 
 #logo-img {
   width: 90%;
