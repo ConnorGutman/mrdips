@@ -39,6 +39,12 @@ body {
     &:hover {
       color: #333ce5;
     }
+    &:focus {
+      color: #231F20;
+    }
+    &:visited {
+      color: #231F20;
+    }
   }
   #menu-link a {
     text-transform: uppercase;
