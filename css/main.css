@@ -67,6 +67,10 @@ body {
   #menu-footer {
     display: none; } }
 
+@media (max-width: 768px) {
+  .detect {
+    display: none; } }
+
 .hidden {
   display: none; }
 

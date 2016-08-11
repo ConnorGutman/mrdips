@@ -1,6 +1,11 @@
 @import 'type.scss';
 @import 'nav.scss';
 @import 'footer.scss';
+.detect {
+  @media(max-width: 768px) {
+    display: none;
+  }
+}
 .hidden {
   display: none;
 }
