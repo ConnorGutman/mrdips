@@ -15,7 +15,6 @@ body {
     color: #231F20;
     font-size: 20px;
     font-weight: 600;
-    text-transform: uppercase;
     &:hover {
       text-decoration: none;
       color: #231F20;
@@ -33,9 +32,19 @@ body {
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    &:hover {
+      color: #333ce5;
+    }
+  }
+  #menu-link a {
+    text-transform: uppercase;
+    font-size: 1rem;
   }
 }
-
 .menu-content-wrapper {
   .container-fluid {
     .row {
@@ -45,11 +54,20 @@ body {
           font-size: 17.5px;
           font-weight: 600;
           text-transform: uppercase;
+          margin-bottom: 17.5px;
         }
         p {
           font-size: 14.75px;
           font-weight: 600;
           line-height: 1.25;
+          margin-bottom: 14.75px;
+        }
+        .row {
+          div {
+            @media(min-width: 991px) {
+              margin-bottom: 14.75px;
+            }
+          }
         }
       }
     }
