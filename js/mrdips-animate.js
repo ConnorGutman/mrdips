@@ -1,5 +1,5 @@
 (function() {
-  var is_mobile = false;
+/*  var is_mobile = false;
   //$("canvas").remove();
   if( $('.detect').css('display')=='none') {
       is_mobile = true;
@@ -8,9 +8,9 @@
   // now i can use is_mobile to run javascript conditionally
 
   if (is_mobile == false) {
-    $("#placeCanvas").html("<canvas id='mrDipsAnimation'></canvas>");
-  }
 
+  } */
+  $("#placeCanvas").append("<canvas id='mrDipsAnimation'></canvas>");
     var lastTime = 0;
     var vendors = ['ms', 'moz', 'webkit', 'o'];
     for(var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
