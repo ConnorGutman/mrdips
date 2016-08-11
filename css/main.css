@@ -65,6 +65,9 @@ body {
   top: 50%;
   transform: translateY(-50%); }
 
+@media (min-width: 768px) {
+  .menu-content-wrapper .container-fluid .menu-outer-row {
+    padding: 55px; } }
 .menu-content-wrapper .container-fluid .menu-outer-row .outer-border {
   padding: 36px 16px;
   border: 7.5px #ff00ff solid; }
@@ -90,9 +93,6 @@ body {
 @media (min-width: 991px) {
   .menu-content-wrapper .container-fluid .menu-outer-row .outer-border .row .dairy-dips {
     margin-top: -140px; } }
-@media (min-width: 768px) {
-  .menu-content-wrapper .container-fluid .menu-outer-row {
-    padding: 55px; } }
 @media (min-width: 768px) {
   .menu-content-wrapper {
     margin-top: 2vh; } }
