@@ -7,9 +7,8 @@
 
   // now i can use is_mobile to run javascript conditionally
 
-  if (is_mobile == true) {
-  } else if (is_mobile == false) {
-    $("#placeCanvas").append("<canvas id='mrDipsAnimation'></canvas>");
+  if (is_mobile == false) {
+    $("#placeCanvas").html("<canvas id='mrDipsAnimation'></canvas>");
   }
 
     var lastTime = 0;
