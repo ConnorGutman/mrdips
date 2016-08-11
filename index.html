@@ -18,7 +18,6 @@
       <div class="row" id="animation">
         <div class="col-xs-12 offset-sm-2 col-sm-8 offset-md-3 col-md-6 offset-lg-4 col-lg-4" id="placeCanvas">
           <img id="mrDipsFallback" src="img/mrdips.gif">
-          <canvas id="mrDipsAnimation"></canvas>
         </div>
       </div>
       <div class="row" id="logo">
@@ -97,19 +96,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
  <script>
  $( document ).ready(function() {
-    var is_mobile = false;
-    //$("canvas").remove();
-    if( $('.detect').css('display')=='none') {
-        is_mobile = true;
-    }
 
-    // now i can use is_mobile to run javascript conditionally
-
-    if (is_mobile == true) {
-        $("canvas").remove();
-    } else if (is_mobile == false) {
-      $("#placeCanvas").append("<canvas id='mrDipsAnimation'></canvas>");
-    }
  });
  </script>
  <script src="js/mrdips-animate.js"></script>
