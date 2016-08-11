@@ -1,0 +1,26 @@
+#footer,
+#menu-footer {
+  padding-top: 2vh;
+  div {
+    text-align: center;
+    img {
+      width: auto;
+      height: 34px;
+      display: inline;
+      &:nth-of-type(2) {
+        height: 37px;
+        margin-left: 30px;
+      }
+    }
+    @media(min-width: 991px) {
+      text-align: right;
+      padding-right: 5%;
+    }
+  }
+}
+#menu-footer {
+  margin-top: -15vh;
+  @media(max-width: 768px) {
+    display: none;
+  }
+}

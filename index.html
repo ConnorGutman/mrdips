@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="page-content-wrapper">
+    <div class="container-fluid">
+      <div class="row" id="animation">
+        <div class="col-xs-12 offset-sm-2 col-sm-8 offset-md-3 col-md-6 offset-lg-4 col-lg-4">
+          <canvas id="mrDipsAnimation"></canvas>
+        </div>
+      </div>
+      <div class="row" id="logo">
+        <div class="col-xs-12 offset-sm-2 col-sm-8 offset-md-3 col-md-6 offset-lg-4 col-lg-4">
+          <img id="logo-img" src="img/logo.svg">
+          <h2 class="text-xs-center">Burgers, Beer, Fries &amp; Dairy Dips</h2>
+        </div>
+      </div>
+      <div class="row" id="body">
+        <div class="col-xs-12 offset-sm-2 col-sm-8 offset-md-3 col-md-6 offset-lg-4 col-lg-4">
+          <div class="text-xs-center" id="menu-link"><a href="#">Menu</a></div>
+          <img id="instagram" src="img/instagram.svg">
+          <a href="https://www.google.com/maps/place/111+N+12th+St,+Brooklyn,+NY+11249/@40.7221136,-73.9593687,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25942d4fd21b5:0x8478af1e2b73f606!8m2!3d40.7221096!4d-73.95718" target="_blank"><h2 id="address" class="text-xs-center">Walk on over to Vale Park above<br>111 N 12th Street, Brooklyn, NY.<br>Dipping Daily from noon to 10pm.</h2></a>
+        </div>
+      </div>
+      <div class="row" id="footer">
+        <div>
+          <img src="img/noho.jpg">
+          <img src="img/williamvale.svg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="menu-content-wrapper hidden">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="outer-border col-xs-12 offset-md-3 col-md-6">
+          <a id="exit" href="#"><img src="img/exit.svg"></a>
+          <div class="col-xs-12  offset-sm-1 col-sm-10 offset-md-2 col-md-8">
+          <img src="img/logo.svg">
+          <h1 class="text-xs-center">Menu</h1>
+          </div>
+          <div class="row">
+          <div class="col-xs-12 col-md-6">
+          <h2 class="text-xs-center">GRIDDLE-BURGERS</h2>
+          <p class="text-xs-center">Single Dip - $6<br>(aged cheddar &amp; some sauce)</p>
+          <p class="text-xs-center">Double Dip - $9<br>(aged cheddar &amp; more of that sauce)</p>
+          <p class="text-xs-center">Special Dip - $8<br>(extra fancy)</p>
+          <p class="text-xs-center">Green Label - $7<br>(signature 5-grainblack-bean-mushroom burger)</p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+          <h2 class="text-xs-center">POTATO FRIES</h2>
+          <p class="text-xs-center">Waffles - $4</p>
+          <p class="text-xs-center">Dirty Dipped Waffles- $6<br>(shaken up with cheddar and scallion)</p>
+        </div>
+      </div>
+          <div class="row">
+          <div class="dairy-dips col-xs-12 col-md-6 push-md-6">
+          <h2 class="text-xs-center">DAIRY DIPS</h2>
+          <p class="text-xs-center">Jacker-Crax - $5<br>(buttered caramel popcorn &amp; salted peanuts)</p>
+          <p class="text-xs-center">Malter Cronkite - $5<br>(loaded crunchy malt-chocolate twist)</p>
+          <p class="text-xs-center">Hawaii Five-0 - $5<br>(tahitian vanilla, pineapple preserve, toasted coconut)</p>
+          <p class="text-xs-center">Berries &amp; Cream - $5<br>(boozy summer strawberry, nilla wafer, Ronnybrook cream)</p>
+          </div>
+          <div class="col-xs-12 col-md-6 pull-md-6">
+          <h2 class="text-xs-center">BEVERAGES</h2>
+          <p class="text-xs-center">Bottled Water - $2</p>
+          <p class="text-xs-center">Frozen Lemonade - $3</p>
+          <p class="text-xs-center">Boylan’s Soda - $3<br>(cane cola, cream soda, root beer)</p>
+          <p class="text-xs-center">Draft Beer<br>by Brooklyn Brewery - $6<br>(Vale Park Pale Ale)</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="row" id="menu-footer">
+        <div>
+          <img src="img/noho.jpg">
+          <img src="img/williamvale.svg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+  <script src="js/mrdips-animate.js"></script>
+  <script>
+  $( "#menu-link a" ).click(function() {
+    $(".menu-content-wrapper").removeClass("hidden");
+    $(".page-content-wrapper").addClass("hidden");
+  });
+  $( "#exit" ).click(function() {
+    $(".page-content-wrapper").removeClass("hidden");
+    $(".menu-content-wrapper").addClass("hidden");
+  });
+  </script>
+</body>
+
+</html>

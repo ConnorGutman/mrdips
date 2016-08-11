@@ -1,0 +1,57 @@
+body {
+  font-family: Helvetica;
+  color: #231F20;
+}
+.page-content-wrapper {
+  h1 {}
+  h2 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  h3 {}
+  p {}
+  a {
+    padding: 1vh 10%;
+    color: #231F20;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    &:hover {
+      text-decoration: none;
+      color: #231F20;
+    }
+    &:focus {
+      text-decoration: none;
+      color: #231F20;
+    }
+    &:visited {
+      text-decoration: none;
+      color: #231F20;
+    }
+  }
+  a #address {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+}
+
+.menu-content-wrapper {
+  .container-fluid {
+    .row {
+      .outer-border {
+        h1,
+        h2 {
+          font-size: 17.5px;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+        p {
+          font-size: 14.75px;
+          font-weight: 600;
+          line-height: 1.25;
+        }
+      }
+    }
+  }
+}
