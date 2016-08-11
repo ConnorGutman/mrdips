@@ -14,6 +14,10 @@
   width: 100%;
   top: 50%;
   transform: translateY(-50%);
+  @media(max-width: 768px) {
+    margin-top: 10vh;
+    overflow-x: hidden;
+  }
 }
 .menu-content-wrapper {
   .container-fluid {
@@ -58,12 +62,6 @@
   }
   @media(min-width: 768px) {
     margin-top: 2vh;
-  }
-}
-#placeCanvas {
-  @media(max-width: 768px) {
-    margin-top: 10vh;
-    overflow-x: hidden;
   }
 }
 #mrDipsFallback {

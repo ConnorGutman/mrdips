@@ -83,6 +83,10 @@ body {
   width: 100%;
   top: 50%;
   transform: translateY(-50%); }
+@media (max-width: 768px) {
+  .page-content-wrapper {
+    margin-top: 10vh;
+    overflow-x: hidden; } }
 
 @media (min-width: 768px) {
   .menu-content-wrapper .container-fluid .menu-outer-row {
@@ -116,11 +120,6 @@ body {
 @media (min-width: 768px) {
   .menu-content-wrapper {
     margin-top: 2vh; } }
-
-@media (max-width: 768px) {
-  #placeCanvas {
-    margin-top: 10vh;
-    overflow-x: hidden; } }
 
 #mrDipsFallback {
   display: block;
