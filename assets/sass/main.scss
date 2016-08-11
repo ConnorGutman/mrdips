@@ -60,6 +60,12 @@
     margin-top: 2vh;
   }
 }
+#placeCanvas {
+  @media(max-width: 768px) {
+    margin-top: 10vh;
+    overflow-x: hidden;
+  }
+}
 #mrDipsFallback {
   display: block;
   width: auto;
