@@ -13,6 +13,11 @@
 </head>
 
 <body>
+  <div id="alert-message">
+    <h1 id="alert-text">Closed Due to rain</h1>
+    <a id="alert-exit" href="#"><img src="img/exit.svg"></img>
+    </a>
+  </div>
   <div class="page-content-wrapper">
     <div class="container-fluid">
       <div class="row" id="animation">
@@ -27,7 +32,7 @@
       </div>
       <div class="row" id="body">
         <div class="col-xs-12 offset-sm-2 col-sm-8 offset-md-3 col-md-6 offset-lg-4 col-lg-4">
-          <a href="https://www.google.com/maps/place/111+N+12th+St,+Brooklyn,+NY+11249/@40.7221136,-73.9593687,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25942d4fd21b5:0x8478af1e2b73f606!8m2!3d40.7221096!4d-73.95718" target="_blank"><h2 id="address" class="text-xs-center">Located at the rooftop park on the<br>corner of North 12th and Wythe Avenue<br>Dipping daily from noon to 10pm</h2></a>
+          <a href="https://www.google.com/maps/place/111+N+12th+St,+Brooklyn,+NY+11249/@40.7221136,-73.9593687,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25942d4fd21b5:0x8478af1e2b73f606!8m2!3d40.7221096!4d-73.95718" target="_blank"><h2 id="address" class="text-xs-center">Located at the rooftop park on the<br>corner of <span>N. 12th and Wythe Avenue (map)</span><br>Dipping daily from noon to 10pm</h2></a>
           <div class="text-xs-center" id="menu-link"><a href="#">Menu</a></div>
           <a id="instagram" href="https://www.instagram.com/eatmrdips/" target="_blank"><img src="img/instagram.svg"></a>
         </div>
@@ -47,41 +52,58 @@
         <div class="outer-border col-xs-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8">
           <a id="exit" href="#"><img src="img/exit.svg"></a>
           <div class="col-xs-12  offset-sm-1 col-sm-10 offset-md-2 col-md-8">
-          <img src="img/logo.svg">
+            <img src="img/logo.svg">
           </div>
           <div class="row">
-          <div class="col-xs-12 col-md-6">
-          <h2 class="text-xs-center text-md-left">GRIDDLE-BURGERS</h2>
-          <p class="text-xs-center text-md-left">Single Dip - $6<br>(aged cheddar &amp; some sauce)</p>
-          <p class="text-xs-center text-md-left">Double Dip - $9<br>(aged cheddar<br>&amp; more of that sauce)</p>
-          <p class="text-xs-center text-md-left">Special Dip - $8<br>(extra fancy)</p>
-          <p class="text-xs-center text-md-left">Green Label - $7<br>(signature 5-grain-<br>black-bean-mushroom burger)</p>
+            <div class="col-xs-12 col-md-6">
+              <h2 class="text-xs-left">GRIDDLE-BURGERS</h2>
+              <p class="text-xs-left">Single Dip - $6
+                <br>(aged cheddar &amp; some sauce)</p>
+              <p class="text-xs-left">Double Dip - $9
+                <br>(aged cheddar
+                <br>&amp; more of that sauce)</p>
+              <p class="text-xs-left">Special Dip - $8
+                <br>(extra fancy)</p>
+              <p class="text-xs-left">Green Label - $7
+                <br>(signature 5-grain-
+                <br>black-bean-mushroom burger)</p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <h2 class="text-xs-left">POTATO FRIES</h2>
+              <p class="text-xs-left">Waffles - $4</p>
+              <p class="text-xs-left">Dirty Dipped Waffles- $6
+                <br>(shaken up with cheddar and scallion)</p>
+            </div>
           </div>
-          <div class="col-xs-12 col-md-6">
-          <h2 class="text-xs-center text-md-left">POTATO FRIES</h2>
-          <p class="text-xs-center text-md-left">Waffles - $4</p>
-          <p class="text-xs-center text-md-left">Dirty Dipped Waffles- $6<br>(shaken up with cheddar and scallion)</p>
-        </div>
-      </div>
           <div class="row">
-          <div class="dairy-dips col-xs-12 col-md-6 push-md-6">
-          <h2 class="text-xs-center text-md-left">DAIRY DIPS</h2>
-          <p class="text-xs-center text-md-left">Jacker-Crax - $5<br>(buttered caramel popcorn<br>&amp; salted peanuts)</p>
-          <p class="text-xs-center text-md-left">Malter Cronkite - $5<br>(loaded crunchy malt-chocolate twist)</p>
-          <p class="text-xs-center text-md-left">Hawaii Five-0 - $5<br>(tahitian vanilla, pineapple preserve,<br>toasted coconut)</p>
-          <p class="text-xs-center text-md-left">Berries &amp; Cream - $5<br>(boozy summer strawberry, nilla wafer,<br>Ronnybrook cream)</p>
+            <div class="dairy-dips col-xs-12 col-md-6 push-md-6">
+              <h2 class="text-xs-left">DAIRY DIPS</h2>
+              <p class="text-xs-left">Jacker-Crax - $5
+                <br>(buttered caramel popcorn
+                <br>&amp; salted peanuts)</p>
+              <p class="text-xs-left">Malter Cronkite - $5
+                <br>(loaded crunchy malt-chocolate twist)</p>
+              <p class="text-xs-left">Hawaii Five-0 - $5
+                <br>(tahitian vanilla, pineapple preserve,
+                <br>toasted coconut)</p>
+              <p class="text-xs-left">Berries &amp; Cream - $5
+                <br>(boozy summer strawberry, nilla wafer,
+                <br>Ronnybrook cream)</p>
+            </div>
+            <div class="col-xs-12 col-md-6 pull-md-6">
+              <h2 class="text-xs-left">BEVERAGES</h2>
+              <p class="text-xs-left">Bottled Water - $2</p>
+              <p class="text-xs-left">Frozen Lemonade - $3</p>
+              <p class="text-xs-left">Boylan’s Soda - $3
+                <br>(cane cola, cream soda, root beer)</p>
+              <p class="text-xs-left">Draft Beer
+                <br>by Brooklyn Brewery - $6
+                <br>(Vale Park Pale Ale)</p>
+            </div>
           </div>
-          <div class="col-xs-12 col-md-6 pull-md-6">
-          <h2 class="text-xs-center text-md-left">BEVERAGES</h2>
-          <p class="text-xs-center text-md-left">Bottled Water - $2</p>
-          <p class="text-xs-center text-md-left">Frozen Lemonade - $3</p>
-          <p class="text-xs-center text-md-left">Boylan’s Soda - $3<br>(cane cola, cream soda, root beer)</p>
-          <p class="text-xs-center text-md-left">Draft Beer<br>by Brooklyn Brewery - $6<br>(Vale Park Pale Ale)</p>
-          </div>
-        </div>
         </div>
       </div>
-    <!--  <div class="row" id="menu-footer">
+      <!--  <div class="row" id="menu-footer">
         <div>
           <a href="http://www.nhgnyc.com/" target="_blank"><img src="img/noho.jpg"></a>
           <a href="http://www.thewilliamvale.com/" target="_blank"><img src="img/williamvale.svg"></a>
@@ -94,21 +116,30 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
- <script>
- $( document ).ready(function() {
-
- });
- </script>
- <script src="js/mrdips-animate.js"></script>
+  <script src="js/mrdips-animate.js"></script>
+  <script src="js/jquery.scalem.js"></script>
   <script>
-  $( "#menu-link a" ).click(function() {
-    $(".menu-content-wrapper").removeClass("hidden");
-    $(".page-content-wrapper").addClass("hidden");
-  });
-  $( "#exit" ).click(function() {
-    $(".page-content-wrapper").removeClass("hidden");
-    $(".menu-content-wrapper").addClass("hidden");
-  });
+    $(document).ready(function() {
+        $('#alert-text').scalem({
+          ratio: 0.6
+        });
+    });
+  </script>
+
+  <script>
+    $("#menu-link a").click(function() {
+      $(".menu-content-wrapper").removeClass("hidden");
+      $(".page-content-wrapper").addClass("hidden");
+    });
+    $("#exit").click(function() {
+      $(".page-content-wrapper").removeClass("hidden");
+      $(".menu-content-wrapper").addClass("hidden");
+    });
+  </script>
+  <script>
+    $("#alert-exit").click(function() {
+      $("#alert-message").addClass("hidden");
+    });
   </script>
 </body>
 

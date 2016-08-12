@@ -1,6 +1,7 @@
 @import 'type.scss';
 @import 'nav.scss';
 @import 'footer.scss';
+@import 'alert.scss';
 .detect {
   @media(max-width: 768px) {
     display: none;
@@ -34,6 +35,9 @@
         }
         h2 {
           font-size: 17.5px;
+          @media(max-width: 768px) {
+            margin-top: 14.75px;
+          }
         }
         #exit {
           position: fixed;
@@ -86,10 +90,10 @@ canvas {
 #instagram {
   padding: 0;
   img {
-    width: 15%;
-    margin-left: 42.5%;
+    width: 12%;
+    margin-left: 44%;
     margin-top: 14px;
-    margin-bottom: 16px;
+    margin-bottom: 5px;
   }
 }
 #menu-link {

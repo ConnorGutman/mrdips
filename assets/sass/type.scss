@@ -32,12 +32,17 @@ body {
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
-    transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
+    span {
+      transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+    }
     &:hover {
-      color: #333ce5;
+      color: #231F20;
+      span {
+        color: #333ce5;
+      }
     }
     &:focus {
       color: #231F20;

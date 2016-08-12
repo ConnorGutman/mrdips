@@ -22,12 +22,15 @@ body {
 .page-content-wrapper a #address {
   font-size: 1rem;
   font-weight: 600;
-  text-align: center;
+  text-align: center; }
+.page-content-wrapper a #address span {
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease; }
 .page-content-wrapper a #address:hover {
+  color: #231F20; }
+.page-content-wrapper a #address:hover span {
   color: #333ce5; }
 .page-content-wrapper a #address:focus {
   color: #231F20; }
@@ -53,23 +56,54 @@ body {
 
 #footer, #menu-footer {
   padding-top: 2vh; }
+@media (max-width: 768px) {
+  #footer, #menu-footer {
+    margin-bottom: 2vh; } }
 #footer div, #menu-footer div {
   text-align: center; }
 #footer div a, #menu-footer div a {
   padding: 0; }
+#footer div a:nth-of-type(1), #menu-footer div a:nth-of-type(1) {
+  margin-right: 2%; }
 #footer div a img, #menu-footer div a img {
   width: auto;
-  height: 34px;
+  height: 24px;
   display: inline; }
 #footer div a img:nth-of-type(2), #menu-footer div a img:nth-of-type(2) {
-  height: 37px;
   margin-left: 30px; }
+@media (min-width: 768px) {
+  #footer div a img, #menu-footer div a img {
+    height: 34px; } }
 
 #menu-footer {
   margin-top: -15vh; }
 @media (max-width: 768px) {
   #menu-footer {
     display: none; } }
+
+#alert-message {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 20vh;
+  background-color: #f728df;
+  z-index: 2;
+  transform: translateY(-50%);
+  transform: skew(0deg, -3deg);
+  -ms-transform: skew(0deg, -3deg);
+  -webkit-transform: skew(0deg, -3deg);
+  transform-origin: top left; }
+#alert-message h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20vh;
+  font-weight: 600; }
+#alert-message a {
+  position: absolute;
+  right: 5%;
+  top: 2vh; }
 
 @media (max-width: 768px) {
   .detect {
@@ -99,6 +133,9 @@ body {
   margin-bottom: 56px; }
 .menu-content-wrapper .container-fluid .menu-outer-row .outer-border h2 {
   font-size: 17.5px; }
+@media (max-width: 768px) {
+  .menu-content-wrapper .container-fluid .menu-outer-row .outer-border h2 {
+    margin-top: 14.75px; } }
 .menu-content-wrapper .container-fluid .menu-outer-row .outer-border #exit {
   position: fixed;
   top: 2vh;
@@ -143,10 +180,10 @@ canvas {
 #instagram {
   padding: 0; }
 #instagram img {
-  width: 15%;
-  margin-left: 42.5%;
+  width: 12%;
+  margin-left: 44%;
   margin-top: 14px;
-  margin-bottom: 16px; }
+  margin-bottom: 5px; }
 
 #menu-link {
   margin: 0 0 18px 0; }
